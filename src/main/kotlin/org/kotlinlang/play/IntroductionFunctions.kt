@@ -3,12 +3,11 @@ package org.kotlinlang.play
 fun main(args: Array<String>) {
     // Hello World
     println("Hello, World!")
-    // Functions
-    Functions().main();
-    InfixFunctions().main();
-    OperatorFunctions().main();
 
-    FunctionsWithVarargParameters().main();
+    Functions().main()
+    InfixFunctions().main()
+    OperatorFunctions().main()
+    FunctionsWithVarargParameters().main()
 }
 
 class Functions {
@@ -39,6 +38,8 @@ class Functions {
 }
 
 class InfixFunctions {
+
+    // Infix 함수는 두개의 변수 가운데 있는 함수 (중위표기법)
     fun main() {
 
         infix fun Int.times(str: String) = str.repeat(this)

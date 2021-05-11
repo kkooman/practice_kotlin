@@ -1,9 +1,6 @@
 package org.kotlinlang.play
 
-class Customer
-class Contact(val id: Int, var email: String)
-
-fun main() {
+fun main(args: Array<String>) {
 
     val customer = Customer()
 
@@ -16,3 +13,7 @@ fun main() {
     */
     // val contact2 = Contact();
 }
+
+class Customer
+class Contact(val id: Int, var email: String)
+

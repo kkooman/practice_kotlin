@@ -1,11 +1,11 @@
 package org.kotlinlang.play
 
-fun <E> mutableStackOf(vararg elements: E) = MutableStack(*elements)
 fun main(args: Array<String>) {
     println(mutableStackOf(0.62, 3.14, 2.7))
     println(mutableStackOf("B", "CC", "AAA"))
 }
 
+fun <E> mutableStackOf(vararg elements: E) = MutableStack(*elements)
 class MutableStack<E>(vararg items: E) {
 
     private val elements = items.toMutableList()

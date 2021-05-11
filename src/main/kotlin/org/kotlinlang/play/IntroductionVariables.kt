@@ -22,5 +22,5 @@ fun main(args: Array<String>) {
 }
 
 fun someCondition(): Boolean {
-    return false;
+    return false
 }
