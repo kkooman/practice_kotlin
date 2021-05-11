@@ -1,25 +1,24 @@
-
 import java.util.*
 
 fun main(args: Array<String>) {
 
     println("Hello World!")
-    println("args size : " + args.size);
-    println("args size : ${args.size + 3}");
+    println("args size : " + args.size)
+    println("args size : ${args.size + 3}")
     println(GreetingHi().getInt())
 
     val list = listOf("1", "2")
-    println(list);
+    println(list)
 
     val list2 = arrayListOf("1", "2")
-    println(list2);
+    println(list2)
 
     val list3 = arrayOf("1", "2")
-    println(list3);
+    println(list3)
 
-    var list4 = IntArray(10);
+    var list4 = IntArray(10)
     for (i in 0..list4.size - 1) {
-        println("i:${i},  v:${list4[i]}");
+        println("i:${i},  v:${list4[i]}")
     }
 
     val array = arrayListOf("A", "B", "CC")
@@ -49,6 +48,6 @@ class GreetingHi {
     }
 
     fun getInt(): Long {
-        return Date().time;
+        return Date().time
     }
 }

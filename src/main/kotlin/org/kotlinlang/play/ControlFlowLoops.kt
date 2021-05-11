@@ -24,8 +24,8 @@ fun main(args: Array<String>) {
     } while (cakesBaked < cakesEaten)
     //------------------------------------------------
     // Iterators
-    val animals = listOf(Animal("zebra"), Animal("lion"));
-    val zoo = Zoo(animals);
+    val animals = listOf(Animal("zebra"), Animal("lion"))
+    val zoo = Zoo(animals)
     for (animal in zoo) {
         println("Watch out, it's a ${animal.name}")
     }
