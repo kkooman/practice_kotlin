@@ -2,9 +2,9 @@ package org.kotlinlang.play
 
 fun main(args: Array<String>) {
 
-    val item1 = Item("Bread", 25.0F);
+    val item1 = Item("Bread", 25.0F)
     val item2 = Item("Wine", 29.0F)
-    val item3 = Item("Water", 12.0F);
+    val item3 = Item("Water", 12.0F)
     val order = Order(listOf(item1, item2, item3))
 
     println("Max priced item name: ${order.maxPricedItemName()}")
