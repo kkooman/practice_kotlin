@@ -37,8 +37,9 @@ fun main(args: Array<String>) {
     println(x)
     println(y)
 
-}
+    println(" 1 + = 2  ".replace("""[1234567890\\+\\-\\*\\/]""".toRegex(), "").replace("\\s".toRegex(), "") + "]]")
 
+}
 
 class GreetingHi {
     init {

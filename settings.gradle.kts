@@ -1,3 +1,3 @@
 
-rootProject.name = "practive_kotlin"
+rootProject.name = "practice_kotlin"
 
