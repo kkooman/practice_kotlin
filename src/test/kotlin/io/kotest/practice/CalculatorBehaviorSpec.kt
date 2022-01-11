@@ -6,6 +6,7 @@ import io.kotest.inspectors.forAll
 import io.kotest.matchers.shouldBe
 
 internal class CalculatorBehaviorSpec : BehaviorSpec({
+    
     val sut = Calculator()
 
     given("calculate") {
