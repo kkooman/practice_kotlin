@@ -8,8 +8,7 @@ import io.kotest.inspectors.forAll
 import io.kotest.matchers.shouldBe
 
 internal class CalculatorAnnotationSpec : AnnotationSpec() {
-
-
+    
     override fun beforeSpec(spec: Spec) {
         println("beforeSpec")
     }
