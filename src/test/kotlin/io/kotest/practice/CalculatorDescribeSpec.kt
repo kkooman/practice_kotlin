@@ -6,7 +6,7 @@ import io.kotest.inspectors.forAll
 import io.kotest.matchers.shouldBe
 
 internal class CalculatorDescribeSpec : DescribeSpec({
-    
+
     val sut = Calculator()
 
     describe("calculate") {
