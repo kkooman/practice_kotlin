@@ -1,13 +1,14 @@
 package org.kotlinlang.play
 
+import kotlin.coroutines.suspendCoroutine
 import kotlin.reflect.KProperty
 
 fun main(args: Array<String>) {
-    val e = Example()
-    println(e.p)
-    e.p = "NEW"
+    val example = Example()
+    println(example.p)
+    example.p = "NEW"
 
-    println(e)
+    println(example)
 }
 
 class Example {
