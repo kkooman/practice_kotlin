@@ -7,7 +7,7 @@ fun Parent.foo() = "parent";
 fun Child.foo() = "child";
 fun String.get(index: Int) = '*'
 
-fun main(args: Array<String>) {
+fun main() {
     val parent: Parent = Child()
     println(parent.foo())    // parent
 
